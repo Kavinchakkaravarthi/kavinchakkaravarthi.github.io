@@ -1,0 +1,223 @@
+
+
+@font-face {
+    font-family: 'Mont-ExtraLightDEMO';
+    src: url('fonts/Mont-ExtraLightDEMO.otf') format('opentype');
+}
+
+
+
+
+h1{
+    color: black;
+    font-family: 'Mont-ExtraLightDEMO';
+    font-weight: 25px;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 20vw;
+    letter-spacing: 1vw;
+}
+
+h2{
+    color: black;
+    font-family: 'Mont-ExtraLightDEMO';
+    font-weight: 25px;
+    font-size: 1vw;
+    text-align: center;
+    padding-top: 2vw;
+    letter-spacing: 1vw;
+}
+
+
+/* ///////////rectangle/////////// */
+.rectangleContainer{
+  /* background: brown; */
+  width: fit-content;
+  height: fit-content;
+  float: inline-start;
+  position: absolute;
+  left:20vw;
+  top: 12vw;
+}
+.rectangleLogo{
+ /*  background: blue; */
+  width: fit-content;
+  height: fit-content;
+  animation: spinCW 5s linear infinite;
+}
+#rectangle{
+  height: 3vw;
+  width: 3vw;
+}
+.rectangleContainer:hover {
+  transition:1s ease-in-out;
+  transform: rotate(360deg);  
+}
+
+/* //////////circle//////////// */
+.circleContainer{
+  /* background: brown; */
+  width: fit-content;
+  height: fit-content;
+  float: inline-start;
+  position: absolute;
+  left:80vw;
+  top: 35vw;
+}
+.circleLogo{
+ /*  background: blue; */
+  width: fit-content;
+  height: fit-content;
+  animation: spinCW 5s linear infinite;
+}
+#circle{
+  height: 3vw;
+  width: 3vw;
+}
+.circleContainer:hover {
+  transition:1s ease-in-out;
+  transform: rotate(360deg);  
+}
+
+/* ///////////triangle1/////////// */
+.triangle1Container{
+  /* background: brown; */
+  width: fit-content;
+  height: fit-content;
+  float: inline-start;
+  position: absolute;
+  left:40vw;
+  top: 8vw;
+}
+.triangle1Logo{
+  /* background: blue; */
+  width: fit-content;
+  height: fit-content;
+  animation: spinCCW 5s linear infinite;
+}
+#triangle1{
+  height: 3vw;
+  width: 3vw;
+}
+.triangle1Container:hover {
+  transition:1s ease-in-out;
+  transform: rotate(-360deg);  
+}
+
+/* ///////////triangle2/////////// */
+.triangle2Container{
+  /* background: brown; */
+  width: fit-content;
+  height: fit-content;
+  float: inline-start;
+  position: absolute;
+  left:60vw;
+  top: 40vw;
+  
+}
+.triangle2Logo{
+ /*  background: blue; */
+  width: fit-content;
+  height: fit-content;
+  animation: spinCCW 5s linear infinite;
+}
+#triangle2{
+  height: 3vw;
+  width: 3vw;
+}
+.triangle2Container:hover {
+  transition:1s ease-in-out;
+  transform: rotate(-360deg);  
+}
+
+/* ///////////oval/////////// */
+.ovalContainer{
+  /* background: brown; */
+  width: fit-content;
+  height: fit-content;
+  float: inline-start;
+  position: absolute;
+  left:10vw;
+  top: 30vw;
+}
+.ovalLogo{
+ /*  background: blue; */
+  width: fit-content;
+  height: fit-content;
+  animation: spinCCW 5s linear infinite;
+}
+#oval{
+  height: 3vw;
+  width: 3vw;
+}
+.ovalContainer:hover {
+  transition:1s ease-in-out;
+  transform: rotate(-360deg);  
+}
+
+/* ///////////square/////////// */
+.squareContainer{
+  /* background: brown; */
+  width: fit-content;
+  height: fit-content;
+  float: inline-start;
+  position: absolute;
+  left:70vw;
+  top: 10vw;
+}
+.squareLogo{
+ /*  background: blue; */
+  width: fit-content;
+  height: fit-content;
+  animation: spinCW 5s linear infinite;
+}
+#square{
+  height: 3vw;
+  width: 3vw;
+}
+.squareContainer:hover {
+  transition:1s ease-in-out;
+  transform: rotate(360deg);  
+}
+
+/* ///////////halfMoon/////////// */
+.halfMoonContainer{
+  /* background: brown; */
+  width: fit-content;
+  height: fit-content;
+  float: inline-start;
+  position: absolute;
+  left:25vw;
+  top: 40vw;
+}
+.halfMoonLogo{
+ /*  background: blue; */
+  width: fit-content;
+  height: fit-content;
+  animation: spinCW 5s linear infinite;
+}
+#halfMoon{
+  height: 3vw;
+  width: 3vw;
+}
+.halfMoonContainer:hover {
+  transition:1s ease-in-out;
+  transform: rotate(360deg);  
+}
+
+
+  @keyframes spinCW {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spinCCW {
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+
+
+

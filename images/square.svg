@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182" height="182" viewBox="0 0 182 182">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="-5" y="-4" width="182" height="182" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Scroll_Group_3" data-name="Scroll Group 3" transform="translate(5 4)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g id="Rectangle_1" data-name="Rectangle 1" fill="none" stroke="#000" stroke-width="2">
+      <rect width="172" height="172" stroke="none"/>
+      <rect x="1" y="1" width="170" height="170" fill="none"/>
+    </g>
+  </g>
+</svg>
